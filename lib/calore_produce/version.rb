@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
 module CaloreProduce
-  VERSION = "0.1.2"
+  CALORE_PRODUCE_VERSION = "0.1.3"
 end
