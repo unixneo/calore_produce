@@ -4,7 +4,7 @@ require_relative "lib/calore_produce/version"
 
 Gem::Specification.new do |spec|
   spec.name = "calore_produce"
-  spec.version = CaloreProduce::VERSION
+  spec.version = CaloreProduce::CALORE_PRODUCE_VERSION
   spec.authors = ["unixneo"]
   spec.email = ["neo@unix.com"]
 
