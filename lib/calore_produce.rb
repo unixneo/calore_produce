@@ -3,6 +3,7 @@
 require_relative "calore_produce/version"
 
 module CaloreProduce
-  class Error < StandardError; end
-  # Your code goes here...
+   def self.hello
+     puts "Hello, Cal-Ore Produce."
+   end
 end
