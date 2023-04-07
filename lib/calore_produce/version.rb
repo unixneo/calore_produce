@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
 module CaloreProduceVersion
-  VERSION = "0.1.3.3"
+  VERSION = "0.1.3.3" if !defined?(VERSION)
 end
