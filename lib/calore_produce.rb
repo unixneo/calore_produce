@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-#require_relative "calore_produce/version"
+require_relative "calore_produce/version"
 
 module CaloreProduce
    def self.hello
