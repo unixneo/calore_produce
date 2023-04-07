@@ -17,13 +17,13 @@ module CaloreProduce
     end
 
     def set_precision_with_code(number = 0, product_code = 'C')
-      product_code_to_weight = CaloreProduce.product_code_to_weight
+      product_code_to_weight =  self.product_code_to_weight
       if product_code_to_weight.present?
           precision = product_code_to_weight[product_code].to_i == 100 ? 2: 0
       else
           precision = 2
       end
-      CaloreProduce.number_with_precision(number, precision)
+      self.number_with_precision(number, precision)
     end
 
     def product_code_to_weight
