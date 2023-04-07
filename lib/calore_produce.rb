@@ -4,6 +4,6 @@ require_relative "calore_produce/version"
 
 module CaloreProduce
    def self.hello
-     puts "Hello, Cal-Ore Produce. #{CalOreProduce::CALORE_PRODUCE_VERSION}"
+     puts "Hello, Cal-Ore Produce. #{CaloreProduceVersion::VERSION}"
    end
 end
